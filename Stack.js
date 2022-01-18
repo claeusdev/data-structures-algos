@@ -1,10 +1,8 @@
 class Stack {
-
   constructor(){
     this._store = {}
     this._length = 0
   }
-
   /***
     * Adds {value} at the end of the store
     * Increased the capacity of the store by     * *
@@ -24,7 +22,6 @@ class Stack {
         const lastValue = this._store[this._length - 1]
         delete this._store[this._length - 1]
         return lastValue
-
       }
   }
 
